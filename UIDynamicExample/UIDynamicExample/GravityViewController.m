@@ -27,6 +27,7 @@
     // 重力加速度
     gravityBehaviour.magnitude = 0.1;
     [self.dynamicAnimator addBehavior:gravityBehaviour];
+    UIDynamicItemBehavior
 }
 
 - (void)didReceiveMemoryWarning {
