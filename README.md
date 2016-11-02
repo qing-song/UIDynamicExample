@@ -6,7 +6,7 @@
 
 ### UIDynamicAnimator
 > 它可以让物理仿真元素执行物理行为。
-``` python
+```python
 （1）UIDynamicAnimator的常见方法
 　　- (void)addBehavior:(UIDynamicBehavior *)behavior;  　　//添加1个物理仿真行为
 　　- (void)removeBehavior:(UIDynamicBehavior *)behavior;　　//移除1个物理仿真行为
@@ -23,7 +23,7 @@
 
 ### UIGravityBehavior：重力行为
 
-``` python
+```python
 // 添加到重力行为中的所有物理仿真元素
 @property (nonatomic, readonly, copy) NSArray* items;
 // 重力方向（是一个二维向量）
