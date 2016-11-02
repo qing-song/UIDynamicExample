@@ -1,0 +1,29 @@
+//
+//  UIDynamicPrefixHeader.pch
+//  UIDynamicExample
+//
+//  Created by qingsong on 16/11/1.
+//  Copyright © 2016年 qingsong. All rights reserved.
+//
+
+#ifndef UIDynamicPrefixHeader_pch
+#define UIDynamicPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+Extension.h"
+
+//------------------------获取设备尺寸-----------------------------//
+#define ScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// rgb颜色转换（16进制 -> 10进制）默认透明度为1.0f
+#define UIColorFromHEX(hexValue) \
+[UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 \
+                green:((float)((hexValue & 0x00FF00) >> 8))/255.0 \
+                 blue:((float)(hexValue & 0x0000FF))/255.0 \
+                alpha:1.0f]
+
+
+#endif /* UIDynamicPrefixHeader_pch */
