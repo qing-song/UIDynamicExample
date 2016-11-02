@@ -26,6 +26,9 @@
 		0321E2CF1DC87CFF00CEC70D /* PushBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321E2CD1DC87CFF00CEC70D /* PushBehaviorViewController.m */; };
 		0321E2D01DC87CFF00CEC70D /* PushBehaviorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0321E2CE1DC87CFF00CEC70D /* PushBehaviorViewController.xib */; };
 		0321E2D31DC9C62E00CEC70D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321E2D21DC9C62E00CEC70D /* RootViewController.m */; };
+		0321E2D61DC9EE0900CEC70D /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321E2D51DC9EE0900CEC70D /* BallView.m */; };
+		0321E2D91DC9EEF300CEC70D /* NewtonCradleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321E2D81DC9EEF300CEC70D /* NewtonCradleViewController.m */; };
+		0321E2DC1DC9F03300CEC70D /* NewtonCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0321E2DB1DC9F03300CEC70D /* NewtonCradleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +64,12 @@
 		0321E2CE1DC87CFF00CEC70D /* PushBehaviorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushBehaviorViewController.xib; sourceTree = "<group>"; };
 		0321E2D11DC9C62E00CEC70D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0321E2D21DC9C62E00CEC70D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0321E2D41DC9EE0900CEC70D /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		0321E2D51DC9EE0900CEC70D /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		0321E2D71DC9EEF300CEC70D /* NewtonCradleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonCradleViewController.h; sourceTree = "<group>"; };
+		0321E2D81DC9EEF300CEC70D /* NewtonCradleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonCradleViewController.m; sourceTree = "<group>"; };
+		0321E2DA1DC9F03300CEC70D /* NewtonCradleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonCradleView.h; sourceTree = "<group>"; };
+		0321E2DB1DC9F03300CEC70D /* NewtonCradleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonCradleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +134,10 @@
 			children = (
 				0321E29B1DC8305800CEC70D /* AppleView.h */,
 				0321E29C1DC8305800CEC70D /* AppleView.m */,
+				0321E2D41DC9EE0900CEC70D /* BallView.h */,
+				0321E2D51DC9EE0900CEC70D /* BallView.m */,
+				0321E2DA1DC9F03300CEC70D /* NewtonCradleView.h */,
+				0321E2DB1DC9F03300CEC70D /* NewtonCradleView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -156,6 +169,8 @@
 				0321E2CC1DC87CFF00CEC70D /* PushBehaviorViewController.h */,
 				0321E2CD1DC87CFF00CEC70D /* PushBehaviorViewController.m */,
 				0321E2CE1DC87CFF00CEC70D /* PushBehaviorViewController.xib */,
+				0321E2D71DC9EEF300CEC70D /* NewtonCradleViewController.h */,
+				0321E2D81DC9EEF300CEC70D /* NewtonCradleViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -247,7 +262,10 @@
 				0321E2D31DC9C62E00CEC70D /* RootViewController.m in Sources */,
 				0321E2A81DC8341300CEC70D /* UIView+Extension.m in Sources */,
 				0321E2B71DC87A9F00CEC70D /* BaseViewController.m in Sources */,
+				0321E2DC1DC9F03300CEC70D /* NewtonCradleView.m in Sources */,
 				0321E2C01DC87CB700CEC70D /* CollisionViewController.m in Sources */,
+				0321E2D61DC9EE0900CEC70D /* BallView.m in Sources */,
+				0321E2D91DC9EEF300CEC70D /* NewtonCradleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

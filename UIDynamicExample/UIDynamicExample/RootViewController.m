@@ -30,7 +30,8 @@ static const NSString *kItemName = @"itemName";
                         @{kItemName : @"Collision",},
                         @{kItemName : @"Attachment"},
                         @{kItemName : @"Snap"},
-                        @{kItemName : @"PushBehavior"},].mutableCopy;
+                        @{kItemName : @"PushBehavior"},
+                        @{kItemName : @"NewtonCradle"},].mutableCopy;
 }
 
 - (void)didReceiveMemoryWarning {
