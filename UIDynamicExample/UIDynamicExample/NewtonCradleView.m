@@ -156,5 +156,11 @@
     }
 }
 
+-(void)dealloc
+{
+    for (BallView *ball in _balls) {
+        [ball removeObserver:self forKeyPath:@"center"];
+    }
+}
 
 @end
